@@ -10,16 +10,18 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/Titash-shil/Arcade-Hero-Building-Blocks-Artifact-Registry-I-arc1207/refs/heads/main/qwiklab_explorers_arc1207.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Implementing-Cloud-SQL/refs/heads/main/Implementing%20Cloud%20SQL.sh
 
-sudo chmod +x qwiklab_explorers_arc1207.sh
+sudo chmod +x Implementing%20Cloud%20SQL.sh
 
-./qwiklab_explorers_arc1207.sh
+./Implementing%20Cloud%20SQL.sh
 ```
 
 - Go to `VM instances` From [Here](https://console.cloud.google.com/compute/instances?project=)
 
-### Run the following Commands in `SSH` Window of `wordpress-proxy` :
+- Follow the next steps from the video carefully.
+
+### Run the following Commands in CloudShell again :
 ```
 wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy && chmod +x cloud_sql_proxy
 
